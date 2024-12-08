@@ -1,0 +1,10 @@
+GIT PUSH (to applied changes )
+git add .
+git status
+git commit -m "Commit name "
+git push origin main 
+
+
+GIT PULL(first when start)
+git pull upstream main or git pull --rebase upstream main
+
