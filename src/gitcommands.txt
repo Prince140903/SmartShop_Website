@@ -8,3 +8,4 @@ git push origin main
 GIT PULL(first when start)
 git pull upstream main or git pull --rebase upstream main
 
+at 3rd 1.39 min
