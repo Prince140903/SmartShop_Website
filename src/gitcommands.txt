@@ -9,5 +9,3 @@
 ------GIT PULL(first when start)-------------------------------
     
     1. git pull upstream main or git pull --rebase upstream main
-
-at 3rd 1.39 min
