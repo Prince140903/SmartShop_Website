@@ -4,5 +4,6 @@
     box-sizing: border-box;
 }
 
-.bg-g{background-color: #3bb77e;}
+
+.bg-g.bg-success{background-color: #3bb77e;}
 .text-g {color: #3bb77e;}
