@@ -10,6 +10,11 @@ body {
     box-sizing: border-box;
 }
 
+
+.bg-g.bg-success{background-color: #3bb77e;}
+.text-g {color: #3bb77e;}
+
+
 .container-fluid {
     padding: 0 45px;
 }
