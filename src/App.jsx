@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header } from './components'
 
 function App() {
-
+  
   return (
     <>
       <Header />
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

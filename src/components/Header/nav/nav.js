@@ -3,11 +3,13 @@ import './nav.css';
 
 const Nav =() =>{ 
     return(
-        <div className = "nav">
-            <div className='container-fluid' >
+        <>
+        </>
+        // <div className = "nav">
+        //     <div className='container-fluid' >
             
-            </div>
-        </div>
+        //     </div>
+        // </div>
     )
 }
 
