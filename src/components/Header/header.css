@@ -14,20 +14,20 @@ header .headerSearch {
 }
 
 header .headerSearch .selectDropWrapper {
-  width: 18%;
+  width: 20%;
   font-size: 16px;
   font-weight: 500;
   position: relative;
 }
 
-header .headerSearch .selectDrop:after {
+header .headerSearch .selectDropWrapper:after {
   content: "";
   width: 1px;
   height: 30px;
   background: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 5px;
-  right: 0;
+  right: 0px;
 }
 
 header .headerSearch .search {
@@ -50,4 +50,44 @@ header .headerSearch .search .searchIcon {
   right: 0px;
   opacity: 0.5;
   font-size: 30px !important;
+}
+
+.Logo {
+  height: 8rem;
+  width: 8rem;
+  position: relative;
+  top: -30px;
+}
+
+header .stateWrapper .selectDropWrapper {
+  width: 200px !important;
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ececec;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+header .stateWrapper .selectDropWrapper .openSelect {
+  width: 100%;
+}
+
+header .stateWrapper .selectDropWrapper .selectDrop {
+  left: 0px !important;
+}
+
+.Icon {
+  opacity: 0.6;
+  padding: 1px;
+}
+
+header .headerTabs {
+  padding-left: 40px;
+}
+
+header .headerTabs li span {
+  font-size: 20px;
+  cursor: pointer;
 }

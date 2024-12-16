@@ -1,12 +1,13 @@
-.selectDropWrapper .openselect {
+.selectDropWrapper .openSelect {
   display: block;
   padding: 10px 0;
+  position: relative;
 }
 
-.selectDropWrapper .openselect .arrow {
+.selectDropWrapper .openSelect .arrow {
   position: absolute;
   top: 8px;
-  right: 0;
+  right: 5px;
   font-size: 25px;
 }
 
@@ -27,7 +28,7 @@
   height: 50px;
   border: 1px solid #bce3c9;
   outline: none;
-  padding: 0 15px;
+  padding: 0px 15px;
 }
 
 .selectDrop .searchResults {
