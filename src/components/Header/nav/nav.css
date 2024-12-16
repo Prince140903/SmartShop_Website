@@ -1,0 +1,8 @@
+.nav{width:100%; height: 80; margin: auto; border-top: 1px solid rgba(0,0,0,0,1);border-top: 1px solid rgba(0,0,0,0,1);}
+
+.nav .catTab{padding: 8px 20px !important; font-size: 20 !important;text-transform: capitalize !important;}
+
+.nav nav ul li button{text-transform: capitalize !important; padding: 21px  25px !important;color: rgba(0,0,0,0,8) !important;}
+
+.nav nav ul li button a{text-decoration: none !important;color: rgba(0,0,0,0,8) !important;font-size:  20px !important;}
+
