@@ -81,13 +81,47 @@ header .stateWrapper .selectDropWrapper .selectDrop {
 .Icon {
   opacity: 0.6;
   padding: 1px;
+  margin-right: 10px;
 }
 
 header .headerTabs {
   padding-left: 40px;
 }
 
+header .headerTabs li {
+  position: relative;
+  margin: 0px 20px 0px 20px;
+}
+
 header .headerTabs li span {
   font-size: 20px;
   cursor: pointer;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 200px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px rgba(0, 0, 0, 0.23);
+  padding: 10px 0px;
+}
+
+.dropdownMenu li {
+  width: 100% !important;
+  text-align: left !important;
+}
+
+.dropdownMenu li button {
+  width: 100% !important;
+  color: #000 !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  padding: 12px 15px !important;
+}
+
+.dropdownMenu li button:hover {
+  background-color: #f1f1f1 !important;
 }
