@@ -16,10 +16,10 @@
   height: auto;
   background: #fff;
   position: absolute;
-  top: 115%;
+  top: 110%;
   left: -20px;
   z-index: 100;
-  box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px rgba(0, 0, 0, 0.23);
   padding: 15px;
 }
 
@@ -53,6 +53,8 @@
   font-size: 16px;
   width: 100%;
   padding: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 7px;
 }
 
 .selectDrop .searchResults li:hover {
@@ -60,7 +62,7 @@
   color: #fff;
 }
 
-.selectDrop .searchResults li:active {
+.selectDrop .searchResults li .active {
   background: #f1f1f1;
   color: #000 !important;
 }
