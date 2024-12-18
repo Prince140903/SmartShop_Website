@@ -3,10 +3,13 @@ import "./header.css";
 import DynamicIcon from "../../constants/icons.jsx";
 import images from "../../constants/images.js";
 import { Select } from "../../components";
-// import axios from "axios";
-import { Category } from "@mui/icons-material";
+import Button from "@mui/material/Button";
+import { ClickAwayListener } from "@mui/base/ClickAwayListener";
+// import { Category } from "@mui/icons-material";
 
-const header = () => {
+const Header = () => {
+  const [isOpenDropDown, setisOpenDropDown] = useState(false);
+
   const [categories, setcategories] = useState([
     "Milks & Dairies",
     "Wines & Drinks",
@@ -56,7 +59,7 @@ const header = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-2">
-              {/* <img src={images.Logo} alt="logo" className="Logo" /> */}
+              <img src={images.Logo} alt="logo" className="Logo" />
             </div>
 
             <div className="col-sm-5">
@@ -90,15 +93,93 @@ const header = () => {
                     }
                   />
                 </div>
+                <ClickAwayListener onClickAway={() => setisOpenDropDown(false)}>
+                  <ul className="list list-inline mb-0 headerTabs">
+                    <li className="list-inline-item">
+                      <span>
+                        <DynamicIcon iconName="LoopOutlined" className="Icon" />
+                        Compare
+                      </span>
+                    </li>
+                    <li className="list-inline-item">
+                      <span>
+                        <DynamicIcon
+                          iconName="FavoriteBorder"
+                          className="Icon"
+                        />
+                        Wishlist
+                      </span>
+                    </li>
+                    <li className="list-inline-item">
+                      <span>
+                        <DynamicIcon
+                          iconName="ShoppingCartOutlined"
+                          className="Icon"
+                        />
+                        Cart
+                      </span>
+                    </li>
+                    <li className="list-inline-item">
+                      <span onClick={() => setisOpenDropDown(!isOpenDropDown)}>
+                        <DynamicIcon
+                          iconName="PersonOutlined"
+                          className="Icon"
+                        />
+                        Account
+                      </span>
 
-                <ul className="list list-inline mb-0 headerTabs">
-                  <li className="list-inline-item">
-                    <span>
-                      <DynamicIcon iconName="LoopOutlined" className="Icon" />
-                      Compare
-                    </span>
-                  </li>
-                </ul>
+                      {isOpenDropDown !== false && (
+                        <ul className="dropdownMenu">
+                          <li>
+                            <Button>
+                              <DynamicIcon
+                                iconName="PersonOutlined"
+                                className="Icon"
+                              />
+                              My Account
+                            </Button>
+                          </li>
+                          <li>
+                            <Button>
+                              <DynamicIcon
+                                iconName="LocationOnOutlined"
+                                className="Icon"
+                              />
+                              Order Tracking
+                            </Button>
+                          </li>
+                          <li>
+                            <Button>
+                              <DynamicIcon
+                                iconName="ShoppingCartOutlined"
+                                className="Icon"
+                              />
+                              My Orders
+                            </Button>
+                          </li>
+                          <li>
+                            <Button>
+                              <DynamicIcon
+                                iconName="TuneOutlined"
+                                className="Icon"
+                              />
+                              Setting
+                            </Button>
+                          </li>
+                          <li>
+                            <Button>
+                              <DynamicIcon
+                                iconName="LogoutOutlined"
+                                className="Icon"
+                              />
+                              Sign Out
+                            </Button>
+                          </li>
+                        </ul>
+                      )}
+                    </li>
+                  </ul>
+                </ClickAwayListener>
               </div>
             </div>
           </div>
@@ -108,4 +189,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
