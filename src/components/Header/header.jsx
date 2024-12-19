@@ -5,6 +5,8 @@ import images from "../../constants/images.js";
 import { Select } from "../../components";
 import Button from "@mui/material/Button";
 import { ClickAwayListener } from "@mui/base/ClickAwayListener";
+
+import Nav from "./nav/nav.jsx";
 // import { Category } from "@mui/icons-material";
 
 const Header = () => {
@@ -79,7 +81,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="col-sm-5 d-flex align-items-center">
+            <div className="col-sm-5 d-flex align-items-center position-relative poki">
               <div className="ml-auto d-flex align-items-center">
                 <div className="stateWrapper">
                   <Select
@@ -130,7 +132,7 @@ const Header = () => {
 
                       {isOpenDropDown !== false && (
                         <ul className="dropdownMenu">
-                          <li>
+                          <li className="lists">
                             <Button>
                               <DynamicIcon
                                 iconName="PersonOutlined"
