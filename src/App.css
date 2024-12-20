@@ -30,3 +30,9 @@ body {
     font-weight: 600;
     margin-bottom: 25px;
 }
+
+.Icon {
+  opacity: 0.6;
+  padding: 1px;
+  margin-right: 10px;
+}

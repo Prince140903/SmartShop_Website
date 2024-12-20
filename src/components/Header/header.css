@@ -82,12 +82,6 @@ header .stateWrapper .selectDropWrapper .selectDrop {
   left: 0px !important;
 }
 
-.Icon {
-  opacity: 0.6;
-  padding: 1px;
-  margin-right: 10px;
-}
-
 header .headerTabs {
   padding-left: 30px;
 }
