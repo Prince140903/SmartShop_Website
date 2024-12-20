@@ -29,14 +29,14 @@ const Select = ({ data, placeholder, icon }) => {
       return item.toLowerCase().includes(keyword);
     });
 
-    const list2 = list.filter((item, index) => list.indexof(item) === index);
+    const list2 = list.filter((item, index) => list.indexOf(item) === index);
 
     setListData(list2);
   };
 
   return (
     <ClickAwayListener onClickAway={() => setisOpenSelect(false)}>
-      <div className="selectDropWrapper cursor position-relative">
+      <div className="selectDropWrapper cursor position-relative">  
         {icon}
         <span className="openSelect" onClick={openSelect}>
           {selectedItem.length > 14 ? selectedItem.substr(0, 14)+'...' : selectedItem}
@@ -45,13 +45,13 @@ const Select = ({ data, placeholder, icon }) => {
         {isOpenSelect === true && (
           <div className="selectDrop">
             <div className="searchField">
-              <input type="text" placeholder="Search here.." />
+              <input type="text" placeholder="Search here.."  onChange={filterList}/>
             </div>
             <ul className="searchResults">
               <li
-                key={0}
+                key={0} 
                 onClick={() => closeSelect(0, placeholder)}
-                className={`${selectedIndex === 0 ? "active" : ""}`}
+                className={`${selectedIndex === 0 ? 'active' : ''}`}
               >
                 {placeholder}
               </li>
@@ -59,9 +59,9 @@ const Select = ({ data, placeholder, icon }) => {
               {listData.map((item, index) => {
                 return (
                   <li
-                    key={index + 1}
-                    onClick={() => closeSelect(index + 1, item)}
-                    className={`${selectedIndex === index + 1 ? "active" : ""}`}
+                    key={index+1}
+                    onClick={() => closeSelect(index+1, item)}
+                    className={`${selectedIndex === index+1 ? 'active' : ''}`}
                   >
                     {item}
                   </li>

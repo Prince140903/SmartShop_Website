@@ -1,8 +1,12 @@
 header {
   width: 100%;
-  height: auto;
+  height: 80px;
   margin: auto;
-  padding: 30px 0px;
+  padding: 15px 0px;
+}
+
+header .poki {
+  top: -30px;
 }
 
 header .headerSearch {
@@ -14,7 +18,7 @@ header .headerSearch {
 }
 
 header .headerSearch .selectDropWrapper {
-  width: 20%;
+  width: 35%;
   font-size: 16px;
   font-weight: 500;
   position: relative;
@@ -78,19 +82,13 @@ header .stateWrapper .selectDropWrapper .selectDrop {
   left: 0px !important;
 }
 
-.Icon {
-  opacity: 0.6;
-  padding: 1px;
-  margin-right: 10px;
-}
-
 header .headerTabs {
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 header .headerTabs li {
   position: relative;
-  margin: 0px 20px 0px 20px;
+  margin-left: 7px;
 }
 
 header .headerTabs li span {
@@ -107,6 +105,8 @@ header .headerTabs li span {
   background: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px rgba(0, 0, 0, 0.23);
   padding: 10px 0px;
+  z-index: 100;
+  list-style: none;
 }
 
 .dropdownMenu li {

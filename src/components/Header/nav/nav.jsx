@@ -2,23 +2,22 @@ import React from "react";
 import "./nav.css";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDownIcon";
-import GridviewIcon from "@mui/icons-material/Gridview";
-import HeadphonesIcon from "@mui/icons-material/Headphones";
+import DynamicIcon from "../../../constants/icons.jsx";
+
 const Nav = () => {
   return (
     <div className="nav d-flex align-items-center">
       <div className="container-fluid ">
         <div className="row position-relative">
-          <div className="col-sm-2 part 1 d-flex align-items-center">
+          <div className="col-sm-2 part1 d-flex align-items-center">
             <button className="bg-g text-white catTab">
-              <GridviewIcon /> &nbsp;browse all categories{" "}
-              <KeyboardArrowDownIcon />{" "}
+              <DynamicIcon iconName="GridView" className="Icon" /> &nbsp;browse
+              all categories
+              <DynamicIcon iconName="KeyboardArrowDown" className="Icon" />
             </button>
-            //want button which is used in header.js
           </div>
 
-          <div className="col-sm-8 part 2 position-static">
+          <div className="col-sm-8 part2 position-static">
             <nav>
               <ul className="list list-inline mb-0">
                 <li className="list list-inline">
@@ -44,7 +43,11 @@ const Nav = () => {
                 <li className="list list-inline-item position-static">
                   <Button>
                     <Link>
-                      Mega Menu <KeyboardArrowDownIcon />{" "}
+                      Mega Menu{" "}
+                      <DynamicIcon
+                        iconName="KeyboardArrowDown"
+                        className="Icon"
+                      />
                     </Link>
                   </Button>
                   <div className="dropdown_menu megaMenu w-100">
@@ -136,7 +139,10 @@ const Nav = () => {
                   <Button>
                     <Link>
                       pages
-                      <KeyboardArrowDownIcon />{" "}
+                      <DynamicIcon
+                        iconName="KeyboardArrowDown"
+                        className="Icon"
+                      />
                     </Link>
                   </Button>
                   <div className="dropdown_menu">
@@ -208,9 +214,11 @@ const Nav = () => {
               </ul>
             </nav>
           </div>
-          <div className="col-sm-2 part 3 d-flrx align-items-center">
-            <div className="phNo  d-flrx align-items-center ml-auto"></div>
-            <span>HeadphonesOutlinedIcon/</span>
+          <div className="col-sm-2 part3 d-flex align-items-center">
+            <div className="phNo d-flex align-items-center ml-auto"></div>
+            <span>
+              <DynamicIcon iconName="Headphones" className="Icon" />
+            </span>
             <div className="info ml-3">
               <h3 className="text-g">9100-9100</h3>
               <p className="mb-0">24/7 Support center</p>
@@ -220,6 +228,6 @@ const Nav = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Nav;
