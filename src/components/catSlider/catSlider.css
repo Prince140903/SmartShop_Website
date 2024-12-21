@@ -12,12 +12,12 @@
 .cat_slider_Main .item{
     width: 100%;
     height: auto;
-    background: #f4f4f4;
     display: flex;
     align-items: center;
     justify-content:center;
     cursor: pointer;
-    padding: 15px;
+    padding: 15px 0px;
+   
 
 }
 
@@ -27,12 +27,20 @@
     align-items: center;
     justify-content:center;
     flex-direction:column ;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
 }
 
 .cat_slider_Main .item .info h5{
     font-weight: 600 !important;
 
 }
+
+.cat_slider_Main .slick-arrow{
+    zoom: 80%;
+}
+
 .cat_slider_Main .item .info p{
     font-size: 14px;
     opacity: 0.8;
@@ -53,4 +61,9 @@
     left: inherit !important;
 
 
+}
+.cat_slider_Main .item:hover .info{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16),
+    0 3px 6px rgba(0,0,0,0,23);
+    transform: scale(1,1);
 }
