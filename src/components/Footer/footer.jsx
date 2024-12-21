@@ -217,22 +217,22 @@ const Footer = () => {
               <ul>
                 <li className="list-inline-item">
                   <Link to={""}>
-                    <DynamicIcon iconName="FacebookOutlined" className="Icon" />
+                    <DynamicIcon iconName="FacebookOutlined" />
                   </Link>
                 </li>
-                <li className="" list-inline-item>
+                <li className="list-inline-item">
                   <Link to={""}>
-                    <DynamicIcon iconName="Instagram" className="Icon" />
+                    <DynamicIcon iconName="Instagram" />
                   </Link>
                 </li>
-                <li className="" list-inline-item>
+                <li className="list-inline-item">
                   <Link to={""}>
-                    <DynamicIcon iconName="Twitter" className="Icon" />
+                    <DynamicIcon iconName="Twitter" />
                   </Link>
                 </li>
-                <li className="" list-inline-item>
+                <li className="list-inline-item">
                   <Link to={""}>
-                    <DynamicIcon iconName="LinkedIn" className="Icon" />
+                    <DynamicIcon iconName="LinkedIn" />
                   </Link>
                 </li>
               </ul>

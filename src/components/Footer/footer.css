@@ -40,7 +40,7 @@ footer {
 }
 
 footer h3 {
-  color: #000;
+  color: rgb(75, 75, 75);
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -72,6 +72,11 @@ footer .part2 ul li a:hover {
   padding-left: 5px;
 }
 
+footer .lastStrip p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 footer .lastStrip ul {
   display: flex;
   flex-direction: row;
@@ -81,6 +86,7 @@ footer .lastStrip ul {
 
 footer .lastStrip ul li {
   list-style: none;
+  margin-left: 2px;
 }
 
 footer .lastStrip ul li a {
@@ -101,9 +107,10 @@ footer .lastStrip .follows {
   justify-content: center;
   align-items: center;
 }
+
 footer .lastStrip .follows ul li svg {
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }

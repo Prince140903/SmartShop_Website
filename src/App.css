@@ -5,15 +5,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Roboto", sans-serif;
-
 }
 
 .cursor {
   cursor: pointer;
  } 
-
 
 .bg-g, .bg-success {
   background-color: #3bb77e;
@@ -23,11 +22,10 @@ body {
   color: #3bb77e;
 }
 
-
-
 .container-fluid {
   padding: 0px 45px;
 }
+
 .hd{
     font-size: 38px;
     font-weight: 600;
