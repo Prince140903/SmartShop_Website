@@ -10,15 +10,15 @@ const Nav = () => {
   return (
     <div className="nav d-flex align-items-center">
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-sm-3 part1 d-flex align-items-center ">
+        <div className="row position-relative">
+          <div className="col-sm-2 part1 d-flex align-items-center ">
             <Button className="bg-g text-black catTab">
               <GridViewIcon /> &nbsp;Browse All Categories{" "}
               <KeybordArrowDownIcon />
             </Button>
           </div>
 
-          <div className="col-sm-7 part2 ">
+          <div className="col-sm-8 part2 position-static ">
             <nav>
               <ul className="list list-inline mb-0">
                 <li className="list-inline-item">
@@ -104,13 +104,92 @@ const Nav = () => {
                   </div>
                 </li>
 
-                <li className="list-inline-item">
+                <li className="list-inline-item position-static">
                   <Button>
                     <Link>
                       Mega menu
                       <KeybordArrowDownIcon />
                     </Link>
                   </Button>
+                  <div className="dropdown_menu megaMenu w-100">
+                    <div className="row">
+                      <div className="col">
+                        <h4 className="text-g">Fruit & vegetables</h4>
+                        <ul className="mt-4 mb-0">
+                          <li>
+                            <Link to="">Meat & Poultry</Link>
+                          </li>
+                          <li>
+                            <Link to="">Fresh vegetables</Link>
+                          </li>
+                          <li>
+                            <Link to="">Herbs & Seasoning</Link>
+                          </li>
+                          <li>
+                            <Link to="">cuts & Sprouts</Link>
+                          </li>
+                          <li>
+                            <Link to="">Exotic Fruits & Veggies</Link>
+                          </li>
+                          <li>
+                            <Link to="">Packaged Produce</Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col">
+                        <h4 className="text-g">BreakFast and Dairy</h4>
+                        <ul className="mt-4 mb-0">
+                          <li>
+                            <Link to="">Meat & Poultry</Link>
+                          </li>
+                          <li>
+                            <Link to="">Fresh vegetables</Link>
+                          </li>
+                          <li>
+                            <Link to="">Herbs & Seasoning</Link>
+                          </li>
+                          <li>
+                            <Link to="">cuts & Sprouts</Link>
+                          </li>
+                          <li>
+                            <Link to="">Exotic Fruits & Veggies</Link>
+                          </li>
+                          <li>
+                            <Link to="">Packaged Produce</Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col">
+                        <h4 className="text-g">Meat and Seafood</h4>
+                        <ul className="mt-4 mb-0">
+                          <li>
+                            <Link to="">Meat & Poultry</Link>
+                          </li>
+                          <li>
+                            <Link to="">Fresh vegetables</Link>
+                          </li>
+                          <li>
+                            <Link to="">Herbs & Seasoning</Link>
+                          </li>
+                          <li>
+                            <Link to="">cuts & Sprouts</Link>
+                          </li>
+                          <li>
+                            <Link to="">Exotic Fruits & Veggies</Link>
+                          </li>
+                          <li>
+                            <Link to="">Packaged Produce</Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col">
+                        <img
+                          src="https://images.pexels.com/photos/3025236/pexels-photo-3025236.jpeg?cs=srgb&dl=pexels-alxs-3025236.jpg&fm=jpg"
+                          className="w-100"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </li>
 
                 <li className="list-inline-item">

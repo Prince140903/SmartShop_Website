@@ -37,7 +37,7 @@
 .nav nav ul li button a {
   text-decoration: none !important;
   color: rgba(0,0,0,0.8) !important;
-  font-size: 20px !important;
+  font-size: 21px !important;
 }
 
 .nav .part3 .phNo svg {
@@ -96,14 +96,15 @@
 }
 
  .nav nav li:hover .dropdown_menu {
-  top: 100;
+  top: 100%;
   opacity: 1;
   visibility: inherit;
 }
 
-
-/*.megaMenu {
+.megaMenu {
+  position:static;
   height: auto !important;
+  width: 100px;
   padding: 40px 45px !important;
 }
 
@@ -116,4 +117,4 @@
   color: rgba(0, 0, 0, 0, 7);
   font-size: 21px;
   text-decoration: none;
-} */
+}
