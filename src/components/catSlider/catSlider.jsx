@@ -1,8 +1,9 @@
+
 import React from "react";
-import "./style.css";
+import "./catSlider.css";
 import Slider from "react-slick";
-import { Speed } from "@mui/icons-material";
-import { Fade } from "@mui/material";
+import Speed  from "@mui/icons-material";
+import Fade  from "@mui/material";
 
 const catSlider = () => {
   const [itemBg, setItemBg] = useState([
@@ -26,7 +27,7 @@ const catSlider = () => {
     "#ecffec",
   ]);
 
-  var settings = {
+    var settings = {
     dots: false,
     Infinite: true,
     Speed: 500,
@@ -35,7 +36,8 @@ const catSlider = () => {
     Fade: false,
     arrows: true,
   };
-  return (
+
+ return (
     <>
       <div className="catsliderSection">
         <div className="container-fluid" ref={slider}>
@@ -43,8 +45,7 @@ const catSlider = () => {
           <Slider
             {...settings}
             className="cat_slider_main"
-            id="cat_slider_main"
-          >
+            id="cat_slider_main">
             {itemBg.length !== 0 &&
               itemBg.map((itemBg, index) => {
                 return (
@@ -57,8 +58,9 @@ const catSlider = () => {
                   </div>
                 );
               })}
+            
 
-            {/* <div className="item">
+           <div className="item">
               <div className="info">
                 <img src="https://wp.alithemes.com/html/nest/demo/assest/imgs/shop/cat-12.png" />
                 <h5>Cake & Milk</h5>
@@ -128,8 +130,8 @@ const catSlider = () => {
                 <h5>Cake & Milk</h5>
                 <p>26 items</p>
               </div>
-            // </div> */}
-          </Slider>
+            </div> 
+          </Slider> 
         </div>
       </div>
       <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />

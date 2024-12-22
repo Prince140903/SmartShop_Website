@@ -9,6 +9,9 @@ body {
   font-family: "Roboto", sans-serif;
 
 }
+/* #root{ 
+  zoom: 65;
+} */
 
 .cursor {
   cursor: pointer;
@@ -24,18 +27,17 @@ body {
 }
 
 
-
 .container-fluid {
   padding: 0px 45px;
-}
-.hd{
+} 
+/*.hd{
     font-size: 38px;
     font-weight: 600;
     margin-bottom: 25px;
-}
+}*/
 
 .Icon {
   opacity: 0.6;
   padding: 1px;
   margin-right: 10px;
-}  
+} 
