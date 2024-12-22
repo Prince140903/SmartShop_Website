@@ -16,7 +16,8 @@
     align-items: center;
     justify-content:center;
     cursor: pointer;
-    padding: 15px 0px;
+   
+    
    
 
 }
@@ -49,6 +50,7 @@
 }
 .cat_Slider_Main .slick-arrow{
     zoom: 80%;
+    
 }
 .cat_Slider_Main .slick-arrow.slick-next{
     top:  -50px !important;
