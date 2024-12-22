@@ -1,12 +1,12 @@
 import React from "react";
 import HomeSlider from "./Slider/slider.jsx";
-import CatSlider from "../../components/catSlider/catSlider.jsx";
+import { CatSlider } from "../../components";
 
 const Home = () => {
   return (
     <>
-      <HomeSlider /> 
-      <CatSlider/>
+      <HomeSlider />
+      <CatSlider />
     </>
   );
 };

@@ -98,7 +98,7 @@ const Footer = () => {
               <div className="row">
                 <div className="col">
                   <h3>Company</h3>
-                  <ul class="mb-sm-5 mb-md-0">
+                  <ul className="mb-sm-5 mb-md-0">
                     <li>
                       <Link to="#">About Us</Link>
                     </li>
@@ -124,7 +124,7 @@ const Footer = () => {
                 </div>
                 <div className="col">
                   <h3>Account</h3>
-                  <ul class="mb-sm-5 mb-md-0">
+                  <ul className="mb-sm-5 mb-md-0">
                     <li>
                       <Link to="#">About Us</Link>
                     </li>
@@ -150,7 +150,7 @@ const Footer = () => {
                 </div>
                 <div className="col">
                   <h3>Corporate</h3>
-                  <ul class="mb-sm-5 mb-md-0">
+                  <ul className="mb-sm-5 mb-md-0">
                     <li>
                       <Link to="#">About Us</Link>
                     </li>
@@ -176,7 +176,7 @@ const Footer = () => {
                 </div>
                 <div className="col">
                   <h3>Popular</h3>
-                  <ul class="mb-sm-5 mb-md-0">
+                  <ul className="mb-sm-5 mb-md-0">
                     <li>
                       <Link to="#">About Us</Link>
                     </li>

@@ -1,9 +1,8 @@
-
-import React from "react";
+import React, { useState } from "react";
 import "./catSlider.css";
 import Slider from "react-slick";
-import Speed  from "@mui/icons-material";
-import Fade  from "@mui/material";
+// import Speed  from "@mui/icons-material";
+// import Fade  from "@mui/material";
 
 const catSlider = () => {
   const [itemBg, setItemBg] = useState([
@@ -27,7 +26,7 @@ const catSlider = () => {
     "#ecffec",
   ]);
 
-    var settings = {
+  var settings = {
     dots: false,
     Infinite: true,
     Speed: 500,
@@ -37,20 +36,21 @@ const catSlider = () => {
     arrows: true,
   };
 
- return (
+  return (
     <>
-      <div className="catsliderSection">
-        <div className="container-fluid" ref={slider}>
+      {/* <div className="catsliderSection">
+        <div className="container-fluid" ref={Slider}>
           <h2 className="hd">Featured categories</h2>
           <Slider
             {...settings}
             className="cat_slider_main"
-            id="cat_slider_main">
+            id="cat_slider_main"
+          >
             {itemBg.length !== 0 &&
               itemBg.map((itemBg, index) => {
                 return (
                   <div className="item">
-                    <div className="info" style={{ background: item }}>
+                    <div className="info">
                       <img src="https://wp.alithemes.com/html/nest/demo/assest/imgs/shop/cat-13.png" />
                       <h5>Cake & Milk</h5>
                       <p>26 items</p>
@@ -58,9 +58,8 @@ const catSlider = () => {
                   </div>
                 );
               })}
-            
 
-           <div className="item">
+            <div className="item">
               <div className="info">
                 <img src="https://wp.alithemes.com/html/nest/demo/assest/imgs/shop/cat-12.png" />
                 <h5>Cake & Milk</h5>
@@ -130,10 +129,11 @@ const catSlider = () => {
                 <h5>Cake & Milk</h5>
                 <p>26 items</p>
               </div>
-            </div> 
-          </Slider> 
+            </div>
+          </Slider>
         </div>
-      </div>
+      </div> */}
+      <h1>CatSlider here</h1>
       <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
     </>
   );
