@@ -4,7 +4,7 @@ import HomeSlider from "./Slider/slider.jsx";
 const Home = () =>{
   return (
     <>
-      <HomeSlider />
+      <HomeSlider /> 
     </>
   )
 }

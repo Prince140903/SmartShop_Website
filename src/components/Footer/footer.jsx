@@ -204,6 +204,7 @@ const Footer = () => {
             </div>
           </div>
 
+          <br />
           <hr />
 
           <div className="row lastStrip">

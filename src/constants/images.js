@@ -8,6 +8,11 @@ import Icon4 from "../assets/icon-4.svg";
 import Icon5 from "../assets/icon-5.svg";
 import GooglePlay from "../assets/google-play.jpg";
 import PayMethods from "../assets/PayMethods.png";
+import ClothesIcon from "../assets/clothes.svg";
+import DrinksIcon from "../assets/drinks.svg";
+import FruitsIcon from "../assets/fruits.svg";
+import petFoodIcon from "../assets/petFood.svg";
+import snacksIcon from "../assets/snacks.svg";
 
 export default {
   Logo,
@@ -20,4 +25,9 @@ export default {
   Icon5,
   GooglePlay,
   PayMethods,
+  ClothesIcon,
+  FruitsIcon,
+  DrinksIcon,
+  petFoodIcon,
+  snacksIcon,
 };
