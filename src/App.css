@@ -9,15 +9,17 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-/* #root{ 
-  zoom: 65;
-} */
+
+#root {
+  zoom: 1;
+}
 
 .cursor {
   cursor: pointer;
- } 
+}
 
-.bg-g, .bg-success {
+.bg-g,
+.bg-success {
   background-color: #3bb77e;
 }
 
@@ -25,19 +27,18 @@ body {
   color: #3bb77e;
 }
 
-
-
 .container-fluid {
   padding: 0px 45px;
 }
-.hd{
-    font-size: 38px;
-    font-weight: 600;
-    margin-bottom: 25px;
-}*/
+
+.hd {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
 
 .Icon {
   opacity: 0.6;
   padding: 1px;
   margin-right: 10px;
-} 
+}
