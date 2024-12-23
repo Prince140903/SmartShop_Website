@@ -1,9 +1,8 @@
 import React from "react";
 import HomeSlider from "./Slider/slider.jsx";
-import { CatSlider } from "../../components";
-//import Banners from "../../components/banners";
+import { CatSlider, Banners } from "../../components";
 
-import './home.css';
+import "./home.css";
 import Product from "../../components/product/product.jsx";
 
 const Home = () => {
@@ -38,7 +37,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <div className='productRow'>
+          <div className="productRow">
             <div className="item">
               <Product />
             </div>
@@ -57,12 +56,13 @@ const Home = () => {
             <div className="item">
               <Product />
             </div>
-
           </div>
         </div>
       </section>
+
+      <Banners />
     </>
   );
-}
+};
 
 export default Home;

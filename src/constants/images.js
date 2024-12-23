@@ -13,6 +13,10 @@ import DrinksIcon from "../assets/drinks.svg";
 import FruitsIcon from "../assets/fruits.svg";
 import petFoodIcon from "../assets/petFood.svg";
 import snacksIcon from "../assets/snacks.svg";
+import Banner1 from "../assets/banner-1.jpg";
+import Banner2 from "../assets/banner-2.jpg";
+import Banner3 from "../assets/banner-3.jpg";
+import camera from "../assets/camera.jpeg";
 
 export default {
   Logo,
@@ -30,4 +34,8 @@ export default {
   DrinksIcon,
   petFoodIcon,
   snacksIcon,
+  Banner1,
+  Banner2,
+  Banner3,
+  camera,
 };
