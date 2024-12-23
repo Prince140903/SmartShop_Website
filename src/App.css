@@ -9,18 +9,20 @@
 body {
   font-family: "Roboto", sans-serif;
 }
- #root{ 
+
+#root {
   zoom: 1;
-} 
+}
 
 .transition{
   transition: all 0.3s ease-in-out;
 }
 .cursor {
   cursor: pointer;
- } 
+}
 
-.bg-g, .bg-success {
+.bg-g,
+.bg-success {
   background-color: #3bb77e;
 }
 
@@ -28,11 +30,10 @@ body {
   color: #3bb77e;
 }
 
-
-
 .container-fluid {
   padding: 0px 45px;
 }
+
 .hd{
     font-size: 38px;
     font-weight: 600;
@@ -43,4 +44,4 @@ body {
   opacity: 0.6;
   padding: 1px;
   margin-right: 10px;
-} 
+}
