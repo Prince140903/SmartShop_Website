@@ -9,9 +9,9 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-/* #root{ 
-  zoom: 65;
-} */
+ #root{ 
+  zoom: 1;
+} 
 
 .cursor {
   cursor: pointer;

@@ -7,8 +7,11 @@ const Home = () => {
     <>
       <HomeSlider />
       <CatSlider />
+      
+
+
     </>
-  );
-};
+  )
+}
 
 export default Home;

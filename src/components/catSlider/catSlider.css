@@ -17,6 +17,7 @@
     justify-content:center;
     cursor: pointer;
    
+   
     
    
 
@@ -28,7 +29,7 @@
     align-items: center;
     justify-content:center;
     flex-direction:column ;
-    padding: 15px;
+    padding: 15px 0px;
     transition: all 0.3s ease-in-out;
     position: relative;
 }
@@ -38,9 +39,7 @@
 
 }
 
-.cat_Slider_Main .slick-arrow{
-    zoom: 80%;
-}
+
 
 .cat_Slider_Main .item .info p{
     font-size: 14px;
@@ -67,5 +66,5 @@
 .cat_Slider_Main .item:hover .info{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 16),
     0 3px 6px rgba(0,0,0,0,23);
-    transform: scale(1,1);
+    transform: scale(1,1)
 } 
