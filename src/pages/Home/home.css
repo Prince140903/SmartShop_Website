@@ -1,0 +1,34 @@
+.homeProducts{
+    margin-bottom: 200px;
+    padding: 25px 0px;
+    
+}
+.filterTab li{
+    margin-left:20px;
+}
+
+.filterTab li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    font-weight: 600;
+}
+
+.filterTab li:hover a{
+    color: #3bb77e !important;
+    transform: translateY(-10px);
+ 
+}
+
+.homeProducts .productRow{ /*use for making boxes*/
+    display:flex;
+    padding: 30px 0px;
+    margin: 0px -15px;
+
+}
+.homeProducts .productRow .item{  /*use for makiing boxes which are needed 5 . check for cat slider for Ak*/
+    width:20%;
+    padding: 0px 15px;
+}
