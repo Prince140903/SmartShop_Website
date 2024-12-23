@@ -14,6 +14,9 @@ body {
   zoom: 1;
 }
 
+.transition{
+  transition: all 0.3s ease-in-out;
+}
 .cursor {
   cursor: pointer;
 }
@@ -31,10 +34,10 @@ body {
   padding: 0px 45px;
 }
 
-.hd {
-  font-size: 38px;
-  font-weight: 600;
-  margin-bottom: 25px;
+.hd{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 25px;
 }
 
 .Icon {
