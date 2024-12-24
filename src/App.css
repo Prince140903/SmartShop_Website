@@ -20,11 +20,11 @@ body {
 .cursor{
   cursor: pointer;
 }
-
+/* 
 .bg-g,
 .bg-success{
   background-color: #3bb77e;
-}
+} */
 
 .text-g{
   color: #3bb77e;

@@ -2,6 +2,8 @@ import React from "react";
 import HomeSlider from "./Slider/slider.jsx";
 import { CatSlider, Banners } from "../../components";
 
+
+
 import "./home.css";
 import Product from "../../components/product/product.jsx";
 

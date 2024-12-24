@@ -12,7 +12,7 @@ const Nav = () => {
       <div className="container-fluid">
         <div className="row position-relative">
           <div className="col-sm-2 part1 d-flex align-items-center ">
-            <Button className="bg-g text-black catTab">
+            <Button className="btn-g text-white catTab">
               <GridViewIcon /> &nbsp;Browse All Categories{" "}
               <KeybordArrowDownIcon />
             </Button>

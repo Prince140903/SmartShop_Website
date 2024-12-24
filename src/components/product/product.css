@@ -1,18 +1,15 @@
 .productThumb {
     width: 100%;
-    height: 600;
-    border:1px solid rgba(0,0,0,0.1);
+    height: auto;
+    border: 1px solid rgba(0,0,0,0.1);
     overflow: hidden;
     border-radius: 5px;
-    transition: all 0.3s ease-in-out;
     padding: 25px;
-   
-   
+    transition: all 0.3s ease-in-out !important;
 }
 
 .productThumb:hover { 
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
-    0 3px 6px,rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.23) !important;
        
 }
 
@@ -20,6 +17,28 @@
     width: 100%;
     overflow: hidden;
 }
+
+.productThumb .imgWrapper .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.productThumb .imgWrapper .overlay ul{
+    background: #3bb77e;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
 .productThumb .imgWrapper img{
     transition: all 0.3s ease-in-out;
 }
@@ -34,6 +53,7 @@
     font-size: 15px;
 }
 .productThumb .title{
+
     margin: 10px 0px;
 }
 
@@ -67,11 +87,12 @@
 }
 
 .productThum .button{
-    font-size: 25px !important;
+    font-size: 30px;
     color: #3bb77e !important;
     padding: 10px 20px !important;
     background:#def9ec !important;
     text-transform: capitalize !important;
+    background: #3bb77e !important;
 
 
 }
