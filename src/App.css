@@ -14,19 +14,19 @@ body {
   zoom: 0.75;
 }
 
-.transition {
+.transition{
   transition: all 0.3s ease-in-out;
 }
-.cursor {
+.cursor{
   cursor: pointer;
 }
 
 .bg-g,
-.bg-success {
+.bg-success{
   background-color: #3bb77e;
 }
 
-.text-g {
+.text-g{
   color: #3bb77e;
 }
 
@@ -34,7 +34,7 @@ body {
   padding: 0px 45px;
 }
 
-.hd {
+.hd{
   font-size: 38px;
   font-weight: 600;
   margin-bottom: 25px;
@@ -46,7 +46,7 @@ body {
   margin-right: 10px;
 }
 
-.btn-g {
+.btn-g{
   background: #3bb73b !important;
   padding: 10px 25px !important;
   border-radius: 5px !important;
@@ -54,12 +54,12 @@ body {
   text-transform: capitalize !important;
 }
 
-.btn-g a {
+.btn-g a{
   text-decoration: none !important;
   color: #fff !important;
 }
 
-.btn-g:hover {
+.btn-g:hover{
   background: #fdc040 !important;
   color: #000 !important;
 }

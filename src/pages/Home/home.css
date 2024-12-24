@@ -26,9 +26,10 @@
     display:flex;
     padding: 30px 0px;
     margin: 0px -15px;
+    flex-wrap: wrap;
 
 }
 .homeProducts .productRow .item{  /*use for makiing boxes which are needed 5 . check for cat slider for Ak*/
     width:20%;
-    padding: 0px 15px;
+    padding: 15px 15px;
 }
