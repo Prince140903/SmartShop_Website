@@ -10,6 +10,7 @@ const Home = () => {
     <>
       <HomeSlider />
       <CatSlider />
+      <Banners />
 
       <section className="homeProducts">
         <div className="container-fluid">
@@ -53,14 +54,28 @@ const Home = () => {
             <div className="item">
               <Product />
             </div>
+
+            <div className="item">
+              <Product />
+            </div>
+            <div className="item">
+              <Product />
+            </div>
+            <div className="item">
+              <Product />
+            </div>
+            <div className="item">
+              <Product />
+            </div>
+            <div className="item">
+              <Product />
+            </div>
             <div className="item">
               <Product />
             </div>
           </div>
         </div>
       </section>
-
-      <Banners />
     </>
   );
 };
