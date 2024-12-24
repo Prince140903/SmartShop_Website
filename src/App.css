@@ -11,10 +11,10 @@ body {
 }
 
 #root {
-  zoom: 1;
+  zoom: 0.75;
 }
 
-.transition{
+.transition {
   transition: all 0.3s ease-in-out;
 }
 .cursor {
@@ -34,14 +34,32 @@ body {
   padding: 0px 45px;
 }
 
-.hd{
-    font-size: 38px;
-    font-weight: 600;
-    margin-bottom: 25px;
+.hd {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 25px;
 }
 
 .Icon {
   opacity: 0.6;
   padding: 1px;
   margin-right: 10px;
+}
+
+.btn-g {
+  background: #3bb73b !important;
+  padding: 10px 25px !important;
+  border-radius: 5px !important;
+  color: #fff !important;
+  text-transform: capitalize !important;
+}
+
+.btn-g a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.btn-g:hover {
+  background: #fdc040 !important;
+  color: #000 !important;
 }

@@ -17,6 +17,7 @@ import Banner1 from "../assets/banner-1.jpg";
 import Banner2 from "../assets/banner-2.jpg";
 import Banner3 from "../assets/banner-3.jpg";
 import camera from "../assets/camera.jpeg";
+import Page404 from "../assets/page-404.png";
 
 export default {
   Logo,
@@ -38,4 +39,5 @@ export default {
   Banner2,
   Banner3,
   camera,
+  Page404,
 };
