@@ -4,6 +4,14 @@ header {
   margin: auto;
   padding: 22px 0px;
 }
+.headerWrapper.fixed{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 10000;
+  background: #fff;
+}
 
 header .poki {
   top: -18px;
