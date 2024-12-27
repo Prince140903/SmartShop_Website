@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "./slider.css";
 import images from "../../../constants/images";
 
+import Newsletter from "../../../components/newsletter/newsletter";
+
 const HomeSlider = () => {
   var settings = {
     dots: true,
@@ -37,6 +39,8 @@ const HomeSlider = () => {
             </div>
           </div>
         </Slider>
+
+        <Newsletter />
       </div>
     </section>
   );

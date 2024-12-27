@@ -1,25 +1,26 @@
 import React from "react";
 import HomeSliderBanner from "./Slider/slider.jsx";
-import { CatSlider, Banners } from "../../components";
+import { CatSlider, Banners, Newsletter, Product  } from "../../components";
 
 import "./home.css";
-import Product from "../../components/product/product.jsx";
 
+
+import newsletter from "../../assets/newsletter.jpg";
 import Banner3 from "../../assets/banner-3.jpg";
 import Slider from "react-slick";
-import images from "../../constants/images";
+
+import TopProducts from "./TopProducts/top.jsx";
 
 const Home = () => {
-    var settings = {
-      dots: false,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      fade: false,
-      arrows: true
-     
-    };
+  var settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    fade: false,
+    arrows: true,
+  };
 
   return (
     <>
@@ -132,8 +133,40 @@ const Home = () => {
                 <div className="item">
                   <Product tag="best" />
                 </div>
-
               </Slider>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="topProductsSection">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col">
+              <TopProducts title="Top Selling" />
+            </div>
+            <div className="col">
+              <TopProducts title="Trending Products" />
+            </div>
+            <div className="col">
+              <TopProducts title="Recently added" />
+            </div>
+            <div className="col">
+              <TopProducts title="Top Rated" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="newsLetterSection">
+        <div className="container-fluid ">
+          <div className="box d-flex align-items-center">
+            <div className="info">
+              <h2>Stay Home & get your daily needs from our shop</h2>
+              <p>Start your Daily Shopping With Nest Mart</p>
+              <br /> <br />
+              <Newsletter />
+            </div>
+            <div className="img">
+              <img src={newsletter} className="w-100" />
             </div>
           </div>
         </div>

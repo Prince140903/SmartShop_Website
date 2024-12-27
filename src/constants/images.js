@@ -18,6 +18,12 @@ import Banner2 from "../assets/banner-2.jpg";
 import Banner3 from "../assets/banner-3.jpg";
 import camera from "../assets/camera.jpeg";
 import Page404 from "../assets/page-404.png";
+import image1 from "../assets/image1.jpg";
+import image2 from "../assets/image2.jpg";
+import image3 from "../assets/image3.jpg";
+import image4 from "../assets/image4.jpg";
+import newsletter from '../assets/newsletter.jpg';
+
 
 export default {
   Logo,
@@ -40,4 +46,10 @@ export default {
   Banner3,
   camera,
   Page404,
+  image1,
+  image2,
+  image3,
+  image4,
+  newsletter,
+
 };
