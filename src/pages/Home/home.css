@@ -1,10 +1,11 @@
 .homeProducts{
-    margin-bottom: 200px;
+
     padding: 25px 0px;
     
 }
 .filterTab li{
     margin-left:20px;
+    position: relative;
 }
 
 .filterTab li a{
@@ -32,4 +33,13 @@
 .homeProducts .productRow .item{  /*use for makiing boxes which are needed 5 . check for cat slider for Ak*/
     width:20%;
     padding: 15px 15px;
+}
+
+.homeProductRow2 .productSlider .item{
+    padding: 15px 5px !important;
+
+    padding-right:25px !important;
+
+
+
 }
