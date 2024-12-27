@@ -17,7 +17,8 @@ const Home = () => {
       slidesToShow: 4,
       slidesToScroll: 1,
       fade: false,
-      arrows: true,
+      arrows: true
+     
     };
 
   return (
