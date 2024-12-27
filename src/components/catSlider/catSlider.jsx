@@ -12,6 +12,8 @@ const CatSlider = () => {
     slidesToShow: 10,
     Fade: false,
     arrows: true,
+    autoplay: 2000,
+    centerMode:true
   };
 
   return (

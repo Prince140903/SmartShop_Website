@@ -215,3 +215,15 @@ body {
   animation: tooltips-horz 300ms ease-out forwards;
 }
 
+.price{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.oldPrice{
+    font-size: 20px;
+    opacity: 0.6;
+    color:#000;
+    text-decoration: line-through;
+}
+

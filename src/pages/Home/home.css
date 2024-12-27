@@ -40,6 +40,58 @@
 
     padding-right:25px !important;
 
+}
 
+.topProductsSection{
+    padding: 35px 0px;
+}
+
+
+.newsLetterSection{
+    width: 100%;
+    height: auto;
+}
+
+.newsLetterSection .box{
+    background: url(../../assets/slider-1.png);
+    width: 100%;
+    height:auto;
+    padding: 80px 80px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.newsLetterSection .box .info{
+    width: 55%;
+}
+
+.newsLetterSection .box .info h2{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    opacity: 0.8;
+}
+
+
+.newsLetterSection .box .info p{
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.newsLetterSection .box .img{
+    width: 45%;
+    
+}
+.newsLetterSection .box .img img{
+    position: relative;
+   top:60px;;
+
+}
+
+
+.newsLetterSection .box .newsLetterBanner{
+    position: relative !important;
+    left: 0 !important;
+    bottom: inherit;
 
 }
