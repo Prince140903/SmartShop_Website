@@ -53,7 +53,7 @@
 }
 
 .newsLetterSection .box{
-    background: url(../../assets/slider-1.png);
+    background: url(../../assets/banner10.png);
     width: 100%;
     height:auto;
     padding: 80px 80px;
@@ -84,7 +84,7 @@
 }
 .newsLetterSection .box .img img{
     position: relative;
-   top:60px;;
+   top:78px;;
 
 }
 

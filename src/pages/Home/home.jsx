@@ -1,12 +1,8 @@
 import React from "react";
 import HomeSliderBanner from "./Slider/slider.jsx";
 import { CatSlider, Banners, Newsletter, Product  } from "../../components";
-
 import "./home.css";
-
-
-import newsletter from "../../assets/newsletter.jpg";
-import Banner3 from "../../assets/banner-3.jpg";
+import images from "../../constants/images";
 import Slider from "react-slick";
 
 import TopProducts from "./TopProducts/top.jsx";
@@ -111,7 +107,7 @@ const Home = () => {
           <br />
           <div className="row">
             <div className="col-md-3 pr-5 ">
-              <img src={Banner3} className="w-100"></img>
+              <img src={images.banner4} className="w-100"></img>
             </div>
             <div className="col-md-9">
               <Slider {...settings} className="productSlider">
@@ -166,7 +162,7 @@ const Home = () => {
               <Newsletter />
             </div>
             <div className="img">
-              <img src={newsletter} className="w-100" />
+              <img src={images.banner9} className="w-100" />
             </div>
           </div>
         </div>

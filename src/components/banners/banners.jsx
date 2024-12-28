@@ -10,7 +10,7 @@ const Banners = () => {
         <div className="row">
           <div className="col">
             <div className="box">
-              <img src={images.Banner2} className="w-100 transition" />
+              <img src={images.Banner1} className="w-100 transition" />
             </div>
           </div>
 
