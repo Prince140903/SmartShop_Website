@@ -63,8 +63,8 @@ const Product = (props) => {
         </span>
         <div className="d-flex align-items-center ml-3">
           <div className="d-flex align-items-center">
-            <span className="price text-g font-weight-bold ">₹28899.85</span>
-            <span className="oldPrice">₹32999.8</span>
+            <span className="price text-g font-weight-bold ">₹8899.85</span>
+            <span className="oldPrice">₹2999.8</span>
           </div>
 
           <Button className=" btn-g ml-auto transition">

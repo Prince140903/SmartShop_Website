@@ -1,9 +1,11 @@
 .sidebarWrapper {
   max-width: 20%;
+  flex: 0 0 20%;
 }
 
 .rightContent {
   max-width: 80%;
+  flex: 0 0 80%;
 }
 
 .sidebarWrapper h3 {
@@ -48,6 +50,11 @@
 
 .sidebarWrapper .sidebar .btn {
   width: 150px !important;
+}
+
+.sidebarWrapper .sidebar {
+  position: sticky;
+  top: 130px;
 }
 
 .sidebarWrapper .sidebar .card {

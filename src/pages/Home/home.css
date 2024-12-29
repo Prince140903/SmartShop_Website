@@ -1,7 +1,5 @@
 .homeProducts{
-
     padding: 25px 0px;
-    
 }
 .filterTab li{
     margin-left:20px;
@@ -28,8 +26,8 @@
     padding: 30px 0px;
     margin: 0px -15px;
     flex-wrap: wrap;
-
 }
+
 .homeProducts .productRow .item{  /*use for makiing boxes which are needed 5 . check for cat slider for Ak*/
     width:20%;
     padding: 15px 15px;

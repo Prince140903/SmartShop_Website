@@ -1,4 +1,4 @@
-import React, { useEffect, useState,useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "./header.css";
 import DynamicIcon from "../../constants/icons.jsx";
 import images from "../../constants/images.js";
@@ -6,13 +6,12 @@ import { Select } from "../../components";
 import Button from "@mui/material/Button";
 import { ClickAwayListener } from "@mui/base/ClickAwayListener";
 
-
 import Nav from "./nav/nav.jsx";
-// import { Category } from "@mui/icons-material";
 
 const Header = () => {
   const [isOpenDropDown, setisOpenDropDown] = useState(false);
-  const headerRef=useRef();
+
+  const headerRef = useRef();
 
   const [categories, setcategories] = useState([
     "Milks & Dairies",
@@ -57,17 +56,16 @@ const Header = () => {
     "West Bengal",
   ];
 
-
   useEffect(() => {
     window.addEventListener("scroll", () => {
       let position = window.pageYOffset;
       if (position > 100) {
-        headerRef.current.classList.add('fixed')
+        headerRef.current.classList.add("fixed");
       } else {
-        headerRef.current.classList.remove('fixed')
+        headerRef.current.classList.remove("fixed");
       }
-    })
-  }, [])
+    });
+  }, []);
 
   return (
     <>

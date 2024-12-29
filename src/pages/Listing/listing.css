@@ -29,3 +29,30 @@
   text-decoration: none;
   font-size: 22px;
 }
+
+.rightContent .topStrip {
+  padding: 0px 25px;
+}
+
+.rightContent .topStrip p {
+  font-size: 20px;
+}
+
+.rightContent .topStrip .tab_ {
+  width: 200px;
+}
+
+.rightContent .topStrip .tab_ .btn_ {
+  background: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 10px 20px !important;
+  text-transform: capitalize !important;
+  color: rgba(0, 0, 0, 0.7) !important;
+  border-radius: 10px !important;
+  font-size: 16px !important;
+  width: 100% !important;
+}
+
+.rightContent .topStrip .tab_ .btn_ .dropdownMenu {
+  top: 100% !important;
+}
