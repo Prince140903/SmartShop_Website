@@ -63,6 +63,10 @@
 
 
 }
+
+.cat_Slider_Main .slick-current{
+    border:1px solid #37bb7e !important;
+}
 .cat_Slider_Main .item:hover .info, .cat_Slider_Main .slick-current .info{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 16),
     0 3px 6px rgba(0,0,0,0,23);
