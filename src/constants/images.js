@@ -22,11 +22,14 @@ import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
 import image3 from "../assets/image3.jpg";
 import image4 from "../assets/image4.jpg";
-import newsletter from '../assets/newsletter.jpg';
-import banner9 from '../assets/banner9.png';
+import newsletter from "../assets/newsletter.jpg";
+import banner9 from "../assets/banner9.png";
 import banner10 from "../assets/banner10.png";
 import banner4 from "../assets/banner-4.png";
-import cat13 from '../assets/cat13.png';
+import cat13 from "../assets/cat13.png";
+import product21 from "../assets/product21.jpg";
+import productseed from "../assets/productseed.jpg";
+
 export default {
   Logo,
   Slider1,
@@ -57,5 +60,6 @@ export default {
   banner10,
   banner4,
   cat13,
-
+  product21,
+  productseed,
 };
