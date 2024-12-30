@@ -134,16 +134,30 @@
 .productThumb .brand a{
     text-decoration: none;
 }
+.productThumb .brand .price{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.productThumb .brand .oldPrice{
+  
+    font-size: 20px;
+    opacity: 0.6;
+    color:#000;
+    text-decoration: line-through;
+}
 
 
 
 .productThumb .button{
-    font-size: 30px;
+ 
+    font-size: 40px;
     color: #3bb77e !important;
     padding: 10px 20px !important;
     background:#def9ec !important;
     text-transform: capitalize !important;
     background: #3bb77e !important;
+  
 
 
 }

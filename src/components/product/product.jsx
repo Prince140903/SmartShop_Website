@@ -58,13 +58,13 @@ const Product = (props) => {
         <span className="brand d-block text-g">
           By <Link className="text-g">Sony</Link>
         </span>
-        <div className="d-flex align-items-center ml-3">
+        <div className="d-flex align-items-center">
           <div className="d-flex align-items-center">
-            <span className="price text-g font-weight-bold ">₹8899.85</span>
-            <span className="oldPrice">₹2999.8</span>
+            <span className="price text-g font-weight-bold ">₹8.85</span>
+            <span className="oldPrice">₹29.8</span>
           </div>
 
-          <Button className=" btn-g ml-auto transition">
+          <Button className=" btn-g ml-5 transition">
             <ShoppingCartOutlinedIcon />
             ADD
           </Button>

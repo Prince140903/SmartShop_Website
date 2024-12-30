@@ -23,11 +23,11 @@ body {
 .cursor{
   cursor: pointer;
 }
-/* 
+
 .bg-g,
 .bg-success{
   background-color: #3bb77e;
-} */
+}
 
 .text-g{
   color: #3bb77e;
@@ -71,9 +71,13 @@ body {
 .btn-g{
   background: #3bb73b !important;
   padding: 10px 25px !important;
-  border-radius: 5px !important;
+  border-radius: 10px !important;
   color: #fff !important;
   text-transform: capitalize !important;
+}
+.btn-lg{
+  font-size: 24px !important;
+  padding: 10px 25px !important;
 }
 
 .btn-g a{
@@ -243,6 +247,7 @@ body {
 }
 
 .oldPrice{
+  
     font-size: 20px;
     opacity: 0.6;
     color:#000;
