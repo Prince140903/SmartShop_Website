@@ -13,7 +13,8 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import CompareArrowsOutlinedIcon from "@mui/icons-material/CompareArrowsOutlined";
 import { Button } from "@mui/material";
-import { Product,Newsletter } from "../../components";
+import { Product } from "../../components";
+
 
 const DetailsPage = () => {
   const [zoomImage, setZoomImage] = useState(
@@ -48,15 +49,15 @@ const DetailsPage = () => {
     fade: false,
     arrows: true,
   };
-    var related = {
-      dots: false,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      fade: false,
-      arrows: true,
-    };
+  var related = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    fade: false,
+    arrows: true,
+  };
 
   const goto = (url, index) => {
     setZoomImage(url);
@@ -243,7 +244,7 @@ const DetailsPage = () => {
                 precision={0.5}
                 readOnly
               />
-              <span className="text-light">(32 rewies)</span>
+              <span className="text-muted">(32 rewies)</span>
             </div>
             <div className="priceSec d-flex align-items-center mb-3">
               <span className="text-g priceLarge">₹38</span>
@@ -316,28 +317,26 @@ const DetailsPage = () => {
                 <input type="number" value={inputValue} />
 
                 <span className="arrow plus" onClick={plus}>
-                  {" "}
-                  {/*arrows in increasing number of products  */}
                   <KeyboardArrowUpIcon />
                 </span>
                 <span className="arrow minus" onClick={minus}>
                   <KeyboardArrowDownIcon />
                 </span>
               </div>
+
+              <button className="btn-g btn-lgaddtocartbtn ">
+                <ShoppingCartOutlinedIcon />
+                Add to Cart
+              </button>
+              <button className=" btn-lg addtocartbtn ml-3 btn-border">
+                <FavoriteBorderOutlinedIcon />
+              </button>
+              <button className=" btn-lg addtocartbtn ml-3 btn-border">
+                <CompareArrowsOutlinedIcon />
+              </button>
+
+              {/* productInfo end here */}
             </div>
-
-            <button className="btn-g btn-lgaddtocartbtn ">
-              <ShoppingCartOutlinedIcon />
-              Add to Cart
-            </button>
-            <button className=" btn-lg addtocartbtn ml-3 btn-border">
-              <FavoriteBorderOutlinedIcon />
-            </button>
-            <button className=" btn-lg addtocartbtn ml-3 btn-border">
-              <CompareArrowsOutlinedIcon />
-            </button>
-
-            {/* productInfo end here */}
           </div>
         </div>
 

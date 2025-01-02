@@ -64,7 +64,7 @@ const Product = (props) => {
             <span className="oldPrice">₹29.8</span>
           </div>
 
-          <Button className=" btn-g ml-5 transition">
+          <Button className=" btn-g  ml-5 transition">
             <ShoppingCartOutlinedIcon />
             ADD
           </Button>

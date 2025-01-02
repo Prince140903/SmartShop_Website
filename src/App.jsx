@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Header, Footer } from "./components";
-import { Home, About, Listing, NotFound,DetailsPage } from "./pages";
+import { Home, About, Listing, NotFound, DetailsPage, Cart } from "./pages";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Route exact={true} path="/about" element={<About />} />
         <Route exact={true} path="/product/listing" element={<Listing />} />
         <Route exact={true} path="/Details" element={<DetailsPage />} />
+        <Route exact={true} path="/Cart" element={<Cart />} />
         <Route exact={true} path="*" element={<NotFound />} />
       </Routes>
       <Footer />
