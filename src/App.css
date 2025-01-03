@@ -33,6 +33,10 @@ body {
   color: #3bb77e;
 }
 
+
+.text-muted{
+    color: #B6B6b6;
+}    
 .container-fluid {
   padding: 0px 45px;
 }

@@ -11,3 +11,11 @@
 .bannerSection .box:hover img{
     transform: scale(1.1);
 }
+
+.bannerSection .box button{
+       position: "absolute",
+        top: "50%",
+        left: "10px", // Adjust this value to move the button closer or farther from the edge
+        transform: "translateY(-50%)",
+      
+}

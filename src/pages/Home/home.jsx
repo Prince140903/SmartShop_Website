@@ -6,6 +6,9 @@ import images from "../../constants/images";
 import Slider from "react-slick";
 
 import TopProducts from "./TopProducts/top.jsx";
+import { Button } from "@mui/material";
+import ArrowForwardOutlinedIcon from "@mui/icons-material/ArrowForwardOutlined";
+
 
 const Home = () => {
   var settings = {
@@ -107,8 +110,22 @@ const Home = () => {
           <br />
           <div className="row">
             <div className="col-md-3 pr-5 ">
-              <img src={images.banner4} className="w-100"></img>
+              <img src={images.banner4} className="w-100" />
+              <Button
+                className="btn-g d-flex align-items-center "
+                style={{
+                  position: "absolute",
+                  top: "30%",
+                  left: "30px", // Adjust this value to move the button closer or farther from the edge
+                  transform: "translateY(-50%)",
+                  
+                }}
+              >
+                Shop Now
+                <ArrowForwardOutlinedIcon />
+              </Button>
             </div>
+
             <div className="col-md-9">
               <Slider {...settings} className="productSlider">
                 <div className="item">
